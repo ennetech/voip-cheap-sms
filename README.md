@@ -2,6 +2,7 @@
 this simple package allows you to send sms via voipcheap service
 
 example:
+
         use \VoipCheapSMS\VoipCheap;
         use \VoipCheapSMS\Message;
         
