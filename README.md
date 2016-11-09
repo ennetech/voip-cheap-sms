@@ -1,7 +1,11 @@
 # voip-cheap-sms
-this simple package allows you to send sms via voipcheap service
+This simple package allows you to send sms via voipcheap service
 
-example:
+add the dependency with composer:
+
+composer require enne/voip-cheap-sms:dev-master
+
+use it in you code:
 
         use \VoipCheapSMS\VoipCheap;
         use \VoipCheapSMS\Message;
