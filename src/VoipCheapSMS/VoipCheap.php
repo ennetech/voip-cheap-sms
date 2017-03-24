@@ -26,7 +26,7 @@ class VoipCheap
         $p = $this->password;
         $f = $this->from;
         $t = $message->to;
-        $text = $message->text;
+        $text = urlencode($message->text);
 
         $resp = file_get_contents("https://www.voipcheap.com/myaccount/sendsms.php?username=$u&password=$p&from=$f&to=$t&text=$text");
         $esit = $this->extractValue($resp, "result");
